@@ -9,7 +9,7 @@ The smart contract uses ether management functions to implement a financial inst
 
 See the file [joint_savings.sol](joint_savings.sol) containing the smart contract.
 
-The folder ['execution_results'](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results) contains images confirming the deposit and withdrawal transactions designed to test the `JointSavings` functionality in the Remix VM (London) worked as expected.
+The folder ['execution_results'](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results) contains images confirming the deposit and withdrawal transactions designed to test the `JointSavings` functionality in the Remix VM (London) worked as expected.
 
 ## Steps Completed
 
@@ -23,17 +23,17 @@ The steps I completed are as follows:
 
 I created the smart contract for a joint savings account in Solidity. See part of the contract in the image below:
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/images/contract.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/images/contract.png)
 
 ## Step 2: Compile and Deploy Contract in the JavaScript VM
 
 I compiled the smart contract as shown below:
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/images/compile_and_run.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/images/compile_and_run.png)
 
 I then deployed the contract, as shown below:
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/images/compile_and_run.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/images/compile_and_run.png)
 
 ## Step 3: Interact with Deployed Smart Contract
 
@@ -43,11 +43,11 @@ Once the contract was deployed, I tested its functionality.
 
 I used the `setAccounts` function to define the authorized Ethereum addresses that will be able to withdraw funds from the contract:
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/set_accounts.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/set_accounts.png)
 
 See the transaction record below:
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/set_accounts2.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/set_accounts2.png)
 
 ### Test Deposit Functionality
 
@@ -55,21 +55,21 @@ I tested the deposit functionality of the smart contract by sending the followin
 
 #### Transaction 1: Send 1 ether as wei.
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/1_ether.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/1_ether.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/1_ether_balance.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/1_ether_balance.png)
 
 #### Transaction 2: Send 10 ether as wei.
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/10_ether.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/10_ether.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/10_ether_balance.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/10_ether_balance.png)
 
 #### Transaction 3: Send 5 ether.
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/5_ether.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/5_ether.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/5_ether_balance.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/5_ether_balance.png)
 
 I used the website [Ethereum Unit Converter](https://eth-converter.com/) to assist doing the conversions of ether to wei.
 
@@ -79,18 +79,18 @@ Once I'd successfully deposited funds into the contract, I tested the contractâ€
 
 #### Withdraw 5 ether into `accountOne`
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/5_ether_withdraw.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/5_ether_withdraw.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/5_ether_withdraw_bal.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/5_ether_withdraw_bal.png)
 
 #### Withdraw 10 ether into `accountTwo`
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/10_ether_withdraw.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/10_ether_withdraw.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/5_ether_withdraw_bal.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/5_ether_withdraw_bal.png)
 
 #### Use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/last_to_withdraw.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/last_to_withdraw.png)
 
-![](https://github.com/sarahm44/solidity-joint-account/edit/main/execution_results/last_withdraw_amount.png)
+![](https://github.com/sarahm44/solidity-joint-account/tree/main/execution_results/last_withdraw_amount.png)
