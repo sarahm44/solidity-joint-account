@@ -37,6 +37,8 @@ I created the smart contract for a joint savings account in Solidity. See part o
 
 ![](images/contract.png)
 
+The full contract can be found in [joint_savings.sol](joint_savings.sol).
+
 ### 2. Compile and Deploy Contract in the JavaScript VM
 
 I compiled the smart contract as shown below:
